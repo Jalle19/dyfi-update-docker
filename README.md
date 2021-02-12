@@ -1,6 +1,6 @@
 # dyfi-update-docker
 
-![Docker Build Status](https://img.shields.io/docker/build/jalle19/dyfi-update)
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/jalle19/dyfi-update)](https://hub.docker.com/r/jalle19/dyfi-update)
 
 Yet another Docker image for handling dy.fi updates
 
