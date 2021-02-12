@@ -13,7 +13,7 @@ Yet another Docker image for handling dy.fi updates
 Your e-mail, password and hosts are passed via environment variables. For example:
 
 ```bash
-docker run -it jalle19/dyfi-update-docker --env USER=foo@example.com --env PASS=bar --env HOSTS="example.com foo.example.com"
+docker run -it jalle19/dyfi-update --env USER=foo@example.com --env PASS=bar --env HOSTS="example.com foo.example.com"
 ```
 
 ## License
