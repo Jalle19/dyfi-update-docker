@@ -1,5 +1,7 @@
 # dyfi-update-docker
 
+![Docker Build Status](https://img.shields.io/docker/build/jalle19/dyfi-update)
+
 Yet another Docker image for handling dy.fi updates
 
 ## Why yet another?
@@ -13,7 +15,7 @@ Yet another Docker image for handling dy.fi updates
 Your e-mail, password and hosts are passed via environment variables. For example:
 
 ```bash
-docker run -it jalle19/dyfi-update --env USER=foo@example.com --env PASS=bar --env HOSTS="example.com foo.example.com"
+docker run -it --env USER=foo@example.com --env PASS=bar --env HOSTS=example.com jalle19/dyfi-update
 ```
 
 ## License
